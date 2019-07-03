@@ -1,30 +1,5 @@
-# def nyc_pigeon_organizer(data)
-#   organized_pigeons = {}; 
-#   data.each do |artributes, specifics|
-#     specifics.each do |array, | 
-#     pigeon_name = data[attributes[inside_the_array]]
-     
-     #if names.keys.include?(inside_the_array) 
-      #      names["#{inside_the_array}"] = ["#{key_value}"]
-    #      else 
- #     names["#{:pigeon_name}"] = {:color =>[], :gender =>{}, :lives => {}} 
-#end 
-#end 
-#end 
-# organized_pigeons
-#end
-
-#colors = data[:color][:purple].values.include?("Alex")
-#genders = data[:gender]
-#homes = data[:lives]
-
-    #  if key_values.values.include?(pigeon_name) 
-    
-    
-    
-    def nyc_pigeon_organizer (data)
+def nyc_pigeon_organizer (data)
   final = {}
-
   data.each do |first_level, all_other|
     all_other.each do |category, array|
       array.each do |name|
@@ -60,6 +35,5 @@
       end 
     end 
   end 
-  
   return final 
 end 
