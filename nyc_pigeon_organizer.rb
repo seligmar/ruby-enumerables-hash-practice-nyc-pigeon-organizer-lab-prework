@@ -1,8 +1,8 @@
-def nyc_pigeon_organizer(data)
-  organized_pigeons = {}; 
-   data.each do |artributes, specifics|
-     specifics.each do |array, | 
-     pigeon_name = data[attributes[inside_the_array]]
+# def nyc_pigeon_organizer(data)
+#   organized_pigeons = {}; 
+#   data.each do |artributes, specifics|
+#     specifics.each do |array, | 
+#     pigeon_name = data[attributes[inside_the_array]]
      
      #if names.keys.include?(inside_the_array) 
       #      names["#{inside_the_array}"] = ["#{key_value}"]
